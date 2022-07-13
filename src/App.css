@@ -5,6 +5,10 @@
   --otro: rgb(139, 139, 139);
 }
 
+*{
+  box-sizing: content-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -16,6 +20,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     color: var(--titulo);
+    margin: 7px 0;
 }
 
 p{
@@ -24,4 +29,23 @@ p{
 
 a:link, a:visited, a:active {
   text-decoration:none;
+}
+
+button{
+  background: transparent;
+  color: var(--titulo);
+  padding: 10px;
+  font-size: 1em;
+  text-decoration: none;
+  border: 2px solid var(--titulo);
+  border-radius: 7px;
+}
+
+button:hover{
+  background: var(--titulo);
+  color: var(--fondo);
+}
+
+span{
+  color: red;
 }
