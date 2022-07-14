@@ -10,7 +10,9 @@
   justify-content: space-between;
   padding-bottom: 15px;
 }
-
+.card-container:hover{
+  transform: scale(1.03);
+}
 .img-container {
   height: 300px;
   width: 250px;
@@ -24,3 +26,5 @@
   object-fit: cover;
   border-radius: 10px;  
 }
+
+
