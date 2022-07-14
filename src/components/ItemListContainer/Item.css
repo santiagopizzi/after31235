@@ -11,6 +11,10 @@
   padding-bottom: 15px;
 }
 
+.card-container:hover{
+  transform: scale(1.03);
+}
+
 .img-container {
   height: 300px;
   width: 250px;

@@ -18,7 +18,7 @@ const ItemDetailContainer = () => {
       setItem(respuesta)
     }      
     )
-  })
+  },[])
 
 
   return (

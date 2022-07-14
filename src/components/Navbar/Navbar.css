@@ -48,3 +48,12 @@
   margin: 0 10px;
   color: var(--texto);
 }
+
+.link-activo{
+  margin: 0 10px;
+  color: var(--texto);
+  border: 1px solid var(--otro);
+  padding: 4px 8px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgb(34, 34, 34);
+}
