@@ -32,11 +32,19 @@
   }
 }
 
-.link-container{
-    margin-right: 100px;
+.link-container {
+  margin-right: 100px;
+  
 }
 
-.link{
-    margin: 0 10px;
-    color:var(--texto);
+.link-container ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  margin: 0 10px;
+  color: var(--texto);
 }
