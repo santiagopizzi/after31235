@@ -1,14 +1,15 @@
 import "./Item.css";
 
-const Item = () => {
+const Item = ({nombre, imgItem, extra}) => {
+
   return (
     <div className="card-container">
       <div className="img-container">
-        <img src="/img/hook.jpg" alt="" className="img-item"/>
+        <img src={imgItem} alt={nombre} className="img-item"/>
       </div>
 
-      <h3 className="">Item</h3>
-      {/* <span className="">Extra! Extra!</span> */}
+      <h3 className="">{nombre}</h3>
+      {extra && <span>{extra}</span> }
       <button>DETALLE</button>
     </div>
   );

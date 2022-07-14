@@ -18,9 +18,14 @@ body {
     background-color: var(--fondo);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
     color: var(--titulo);
     margin: 7px 0;
+}
+
+h6{
+  color: var(--texto);
+  margin: 7px 0;
 }
 
 p{

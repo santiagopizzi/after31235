@@ -1,13 +1,9 @@
-import "./App.css"
+import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
-import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
 
-
 const App = () => {
-
-
-
   return (
     <div className="App">
       <Navbar />
